@@ -1,0 +1,34 @@
+.fsc-moodlet-container {
+  display: flex;
+  gap: 12px;
+}
+
+.moodlet {
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  text-align: center;
+}
+
+.moodlet.notRequired {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.moodlet.required {
+  background-color: #ffecb3;
+  color: #000;
+}
+
+.moodlet.current {
+  background-color: #90caf9;
+  color: #000;
+}
+
+.moodlet.completed {
+  background-color: #a5d6a7;
+  color: #000;
+}
